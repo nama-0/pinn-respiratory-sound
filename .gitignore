@@ -1,0 +1,83 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# Environments / secrets
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+env/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw/private respiratory sound data
+data/raw/
+raw/
+ICBHI*/
+**/ICBHI*/
+
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.aac
+
+# Model artifacts / checkpoints
+models/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.keras
+*.onnx
+
+# Generated results / logs
+results/**
+!results/
+!results/README.md
+!results/examples/
+!results/examples/**
+
+plots/
+plot/
+outputs/
+runs/
+logs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+*.log
+events.out.tfevents.*
+
+# Intermediate arrays / serialized experiment artifacts
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.mat
+
+# Archives / large bundles
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+
+# Notebook backups
+*_backup.ipynb
+*_before_pathfix.ipynb
